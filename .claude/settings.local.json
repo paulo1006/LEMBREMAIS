@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Start-Process \"C:\\\\Users\\\\paulo\\\\Desktop\\\\ads\\\\index.html\")"
+    ]
+  }
+}
