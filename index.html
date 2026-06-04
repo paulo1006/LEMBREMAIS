@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <title>Lembre+</title>
+  <meta name="description" content="Lembre+ — Aplicativo de lembretes de medicamentos. Nunca mais esqueça seu remédio." />
+  <meta name="theme-color" content="#5B4FCF" />
+  <title>Lembre+ | Seu horário, sua saúde</title>
+  <!-- Performance: preconnect reduz latência de handshake -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Performance: font-display=swap evita bloqueio de renderização (FOIT → FOUT) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="app"></div>
+  <!-- Acessibilidade: link de pular navegação para usuários de teclado -->
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+  <div id="app" id="main-content"></div>
   <script src="app.js"></script>
 </body>
 </html>
